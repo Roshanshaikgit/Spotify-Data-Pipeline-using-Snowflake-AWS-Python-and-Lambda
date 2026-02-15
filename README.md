@@ -8,7 +8,7 @@ The Spotify Data Pipeline is a serverless ETL workflow built with AWS Lambda, Py
 - Snowpipe automatically ingests transformed files from S3 into Snowflake.
 - Data is structured into stage, core, and mart layers for analytics.
 - Data Modeling
-- Fact tables (e.g., track plays) and dimension tables (users, tracks, artists) designed in Snowflake.
+- Fact tables (e.g., track plays) and dimension tables (songs, albums, artists) designed in Snowflake.
 - Query optimization ensures efficient reporting and dashboard integration
 🔹 Features
 - Serverless architecture → no infrastructure management.
